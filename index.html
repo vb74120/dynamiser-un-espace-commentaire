@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamiser un espace commentaire</title>
+</head>
+<body>
+    <main>
+        <section class="mark">
+            <ul id="list">
+                <li><strong>Mark Edwards</strong></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Recusandae acusantium
+                    quae doloribus. Nobis ipsam libero a velit ab nemo facere molestias quisquam.
+                    Libero repudiandae dignissimos. Doloribus hic placeat soluta ?
+                </p>
+            </ul>
+        </section>
+
+        <section class="title">
+            <h1>&Eacutecrire un commentaire</h1>
+        </section>
+
+        <div id="flex-row">
+            <section class="prenom">
+                <form action="#" method="post"></form>
+                <label for="prenom"><strong>Prenom</strong></label>
+                <input type="text" id="prenom" name="prenom" required>
+                <span id="prenom_manquant"></span>
+            </section>
+            <section class="nom">
+                <form action="#" method="post"></form>
+                <label for="nom"><strong>Nom</strong></label>
+                <input type="text" id="nom" name="nom" required>
+                <span id="nom_manquant"></span>
+            </section>
+        </div>
+
+        <section class="comment">
+            <p class="Commentaire"><strong>Commentaire</strong></p>
+            <p class="max">Max 500 caractères</p>
+        </section>
+
+        <div id="about">
+            <form action="#" method="post"></form>
+            <textarea name="about" id="about" cols="80" rows="20" required></textarea>
+            <span id="veuillez_renseigner_ce_champ"></span>
+
+            <button type="submit" id="bouton_envoi" onclick="addprenom(); addnom(); addabout();">
+            Envoyer</button>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
