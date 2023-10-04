@@ -61,14 +61,18 @@ function addnom() {
         }     
 }
 var node = document.createElement("strong") ; ('list');
-node.appendChild(document.createTextNode('Vincent B.'));
+node.appenchild(document.createTextNode('Vincent B.'));
 document.querySelector('ul').appendChild(node);
 
 var node = document.createElement('li');
-node.appendChild(document.createTextNode('bonjour voici mon devoir dynamiser un espace commentaire'));
+node.appenchild(document.createTextNode('Bonjour voici mon devoir dynamiser un commentaire'));
 document.querySelector('ul').appendChild(node);
 
-
+window.addEventListener("load", event => {
+    document.getElementById("reload").onclick = function() {
+        location.reload(true);
+    }
+});
 
 
 

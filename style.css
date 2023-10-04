@@ -1,0 +1,57 @@
+.mark{
+    margin-left: 300px;
+    width: 680px;
+    padding-top: 20px;
+}
+li{
+    font-size: 1.2em;
+}
+.mark>ul{
+    list-style-type: none;
+}
+.title{
+    padding-left: 340px;
+    padding-top: 30px;
+    font-size: 1em;
+}
+#flex-row{
+    display: flex;
+}
+.prenom, .nom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 340px;
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+.nom{
+    padding-left: 90px;
+}
+input{
+    height: 30px;
+    border-radius: 10%;
+    width: 250px;
+}
+.comment{
+    display: flex;
+    margin-left: 340px;
+    padding-top: 60px;
+    font-size: 1.2em;
+}
+.max{
+    padding-left: 350px;
+}
+#about{
+    margin-left: 170px;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10%;
+    background-color: green;
+    color: white;
+}
+
